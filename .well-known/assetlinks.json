@@ -33,6 +33,19 @@
     }
   },
   {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.turniaccessorio.app",
+      "sha256_cert_fingerprints": [
+        "E1:CB:A6:65:30:2A:35:39:E9:84:4C:D9:55:C9:10:BA:20:90:9D:5D:FC:B4:E5:E0:17:EE:32:31:29:90:9A:9A"
+      ]
+    }
+  },
+  {
     "relation": ["delegate_permission/common.use_as_origin"],
     "target": {
       "namespace": "web",
